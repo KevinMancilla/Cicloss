@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Acceso a elementos DOM</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+        <h1>El ciclo while</h1>
+      <form>
+          <label for="nombre">Numero 1</label>
+          <input type="text" id="numero1" />
+          <label for="nombre">Numero 2</label>
+          <input type="text" id="numero2"/>
+
+    
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" readonly />
+
+
+        <div class="panel">
+          <div class="row">
+              <input type="button" value="1 a 9" class="column" id="btnUno"/>
+            <input type="button" value="1 a 9 select" class="column" id="btnDos"/>
+            <input type="button" value="Agregar a lista numeros" class="column" id="btnTres"/>
+              <input type="button" value="+Tabla" class="column" id="btnCuatro"/>
+          </div>
+       </div>
+     </form>
+    </div>
+
+     <div class="container">
+      <select id="miSelect">
+      </select>
+  </div>
+
+  <div class="container">
+       <ul id="miLista">
+       </ul>
+   </div>
+    
+</body>
+  <script src="while.js"></script>
+</html>
